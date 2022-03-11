@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>The Basic Languauge of the web: HTML</title>
+
+  <!-- this type of CSS is preferable when you are building something small and wants to buid fast -->
+  <!-- not preferable, we are going to use External CSS -->
+  <!-- <style>
+      h1{
+        color: aqua;
+      }
+    </style> -->
+</head>
+
+<!-- body starts here  -->
+
+<body>
+  <div class="container">
+
+    <header class="main-header">
+      <nav>
+        <h1>📘 The Code Magazine</h1>
+        <a href="blog.html">Blog</a>
+        <a href="#">CSS</a>
+        <a href="#">Know More</a>
+        <a href="#">Flexbox</a>
+      </nav>
+    </header>
+    
+    <article>
+      <header class="post-header">
+        <h2>The Basic Language of the Web: HTML</h2>
+
+        <img src="img/laura-jones.jpg" alt="Author photo" />
+
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
+
+        <h3>What is HTML?</h3>
+
+        <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200" class="post-image" />
+      </header>
+    </article>
+
+    <p>
+      All modern websites and web applications are built using three fundamental
+      technologies: HTML, CSS and JavaScript. These are the languages of the
+      web. In this post, let's focus on HTML. We will learn what HTML is all
+      about, and why you too should learn it.
+    </p>
+
+    <p>
+      HTML stands for
+      <strong>H</strong>yper<strong>T</strong>ext<strong>M</strong>arkup<strong>L</strong>anguage.
+      It's a markup language that web developers use to structure and describe
+      the content of a webpage (not a programming language).
+    </p>
+    <p>
+      HTML consists of <em>elements</em> that describe different types of
+      content: paragraphs, links, headings, images, video, etc. Web browsers
+      understand HTML and render HTML code as websites.
+    </p>
+
+    <p>In HTML, each element is made up of 3 parts:</p>
+
+    <ol>
+      <li>The opening tag</li>
+      <li>The closing tag</li>
+      <li>The actual element</li>
+    </ol>
+
+    <p>
+      You can learn more at the
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs.</a>
+    </p>
+
+
+    <article>
+      <h3>Why should you learn HTML?</h3>
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+
+      <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          To hand-craft beautiful websites instead of relying on tools like
+          Worpress or Wix
+        </li>
+        <li>To build web applications</li>
+        <li>To have fun 😃</li>
+      </ul>
+      <p>Hopefully you learned something new here. See you next time!</p>
+    </article>
+
+    <aside class="related">
+      <h4>Related Posts</h4>
+      <ul>
+        <li>
+          <img src="img/related-1.jpg" alt="related-1" width="75" height="75" /><a href="relatedpost.html">How to Learn
+            Web Development</a>
+        </li>
+        <p class="related-author">By Anupam</p>
+        <li>
+          <img src="img/related-2.jpg" alt="" width="75" height="75" /><a href="#">Why learn web development</a>
+        </li>
+        <p class="related-author">By Atul</p>
+        <li>
+          <img src="img/related-3.jpg" alt="" width="75" height="75" /><a href="#">Why JavaScript is Awesome</a>
+          <p class="related-author">By Mayank</p>
+        </li>
+      </ul>
+    </aside>
+
+    <footer id="copyright">
+      <p>Copyright &copy; 2022 by Code Magazine</p>
+    </footer>
+  </div>
+</body>
+
+</html>

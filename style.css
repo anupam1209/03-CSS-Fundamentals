@@ -1,0 +1,160 @@
+/* universal selector */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* so we have learnt about 6 different properties of CSS selectors */
+/* fontsize */
+/* fontfamily */
+/* texttransform */
+/* fontstyle */
+
+/* selecting multiple selectors at a single time */
+
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+}
+
+
+.container{
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  /* padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px; 
+  margin-bottom: 60px;
+}
+
+.post-header{
+  margin-bottom: 30px;
+}
+
+article{
+  margin-bottom: 30px;
+}
+
+/* remember this will override the text properties which is applied in body  */
+
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+h4{
+  margin-top: 50px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,ol{
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child{
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+#author {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#copyright {
+  font-size: small;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* this one is a descendent selector */
+
+aside h4 {
+  text-align: center;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+/* we use pseudo classes to style anchor elements */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #1098ad;
+}
+
+a:hover{
+  color:#1098ad;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.post-image{
+  width: 100%;
+  height: auto;
+}
