@@ -79,6 +79,21 @@ h1 {
 h2 {
   font-size: 40px;
   text-align: center;
+  /* background-color: orange; */
+  position: relative;
+}
+
+
+/* adding pseudo elements */
+h2::after{
+  content: "TOP";
+  background-color: yellow;
+  color: #444;
+  font-size: 16px;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 
 h3 {
@@ -147,6 +162,7 @@ aside {
   margin-top: 20px;
   margin-bottom: 10px;
   width: 500px;
+  position: relative;
 }
 
 /* we use pseudo classes to style anchor elements */
