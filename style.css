@@ -40,6 +40,10 @@ body {
   margin-bottom: 60px;
 }
 
+nav {
+  text-align: center;
+}
+
 nav a:link{
   margin-right: 20px;
   margin-top: 10px;
@@ -74,6 +78,10 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
   margin-bottom: 10px;
+}
+
+h1::first-letter{
+  font-style: normal;
 }
 
 h2 {
