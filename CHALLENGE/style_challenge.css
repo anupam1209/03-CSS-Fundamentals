@@ -60,13 +60,55 @@ p{
 
 
 .more-info-container{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /* implementing pseudo class */
 
 a:hover{
     text-decoration: none;
+}
+
+.box-container {
+    margin-bottom: 20px;
+    margin-left: 4px;
+   /* display: inline-block; */
+}
+
+.box-1 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(250, 33, 33);
+    display: inline-block;
+}
+
+.box-2 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(66, 33, 250);
+    display: inline-block;
+}
+
+.box-3{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(33, 250, 62);
+    display: inline-block;
+}
+
+.box-4{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(248, 244, 3);
+    display: inline-block;
+}
+
+.box-5
+{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(221, 87, 10);
+    display: inline-block;
 }
 
 .details-title{
@@ -97,6 +139,7 @@ button:hover{
     color: black;
     background-color: white;
     cursor: pointer;
+    border-top: 4px solid black;
 }
 
 
@@ -107,3 +150,5 @@ button:hover{
     padding-left: auto;
     padding-right: auto;
 } */
+
+
