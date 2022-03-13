@@ -18,10 +18,24 @@ body{
     margin: 50px auto;
 }
 
+
 .product-title{
     background-color: #f7f7f7;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+}
+
+h2::after{
+    content: "SALE";
+    background-color: rgb(235, 22, 22);
+    font-size: 15px;
+    color: white;
+    padding: 10px 5px;
+    position: absolute;
+    top: -17px;
+    left: -30px;
+    letter-spacing: 5px;
 }
 
 .price {
